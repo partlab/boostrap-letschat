@@ -1,6 +1,6 @@
 FROM partlab/ubuntu-iojs
 
-RUN apt-get update && apt-get install python build-essential -y && npm install -g node-gyp
+MAINTAINER Régis Gaidot <regis@partlab.co>
 
 RUN mkdir /letschat
 WORKDIR /letschat
